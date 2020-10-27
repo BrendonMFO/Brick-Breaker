@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<fx:root id="AnchorPane" prefHeight="400.0" prefWidth="600.0" type="AnchorPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <ImageView fx:id="fundo" fitHeight="400.0" fitWidth="600.0" layoutX="214.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <ImageView fx:id="textoResultado" fitHeight="84.0" fitWidth="571.0" layoutX="15.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="pontuacao" layoutX="1.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="600.0" AnchorPane.bottomAnchor="136.90625" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="135.40625">
+         <font>
+            <Font name="System Bold Italic" size="96.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#97970f" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+         <effect>
+            <Bloom>
+               <input>
+                  <InnerShadow>
+                     <input>
+                        <Reflection>
+                           <input>
+                              <DropShadow />
+                           </input>
+                        </Reflection>
+                     </input>
+                  </InnerShadow>
+               </input>
+            </Bloom>
+         </effect>
+      </Text>
+   </children>
+</fx:root>

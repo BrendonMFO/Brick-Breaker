@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="img1" fitHeight="193.0" fitWidth="453.0" layoutX="109.0" layoutY="170.0" pickOnBounds="true" />
+      <ImageView fx:id="overlay1" fitHeight="193.0" fitWidth="453.0" layoutX="109.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img2" fitHeight="193.0" fitWidth="453.0" layoutX="526.0" layoutY="170.0" pickOnBounds="true" />
+      <ImageView fx:id="overlay2" fitHeight="193.0" fitWidth="453.0" layoutX="526.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img3" fitHeight="193.0" fitWidth="453.0" layoutX="110.0" layoutY="377.0" pickOnBounds="true" />
+      <ImageView fx:id="overlay3" fitHeight="193.0" fitWidth="453.0" layoutX="110.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img4" fitHeight="193.0" fitWidth="453.0" layoutX="526.0" layoutY="377.0" pickOnBounds="true" />
+      <ImageView fx:id="overlay4" fitHeight="193.0" fitWidth="453.0" layoutX="526.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="numeros" fitHeight="150.0" fitWidth="208.0" layoutX="454.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="fundo" fitHeight="768.0" fitWidth="1030.0" pickOnBounds="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-6.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</fx:root>

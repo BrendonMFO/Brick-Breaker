@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root id="AnchorPane" prefHeight="480.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="fundo" fitHeight="480.0" fitWidth="600.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <ImageView fx:id="login" fitHeight="136.0" fitWidth="399.0" layoutX="96.0" layoutY="59.0" pickOnBounds="true" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="90.0" layoutX="105.0" layoutY="205.0" stroke="BLACK" strokeType="INSIDE" width="380.0">
+         <effect>
+            <Reflection fraction="0.45" topOpacity="0.22" />
+         </effect>
+         <fill>
+            <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="0.9271844660194174" startX="1.0" startY="0.05825242718446602">
+               <stops>
+                  <Stop color="#7c7575" />
+                  <Stop color="#b0a5a5" offset="0.19281045751633985" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <TextField fx:id="usuario" layoutX="231.0" layoutY="212.0" prefHeight="31.0" prefWidth="233.0" />
+      <Label layoutX="144.0" layoutY="214.0" text="Usuario:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="256.0" text="Senha:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="btnLimpar" fitHeight="90.0" fitWidth="188.0" layoutX="50.0" layoutY="328.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+         <effect>
+            <Reflection />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="btnConfirmar" fitHeight="90.0" fitWidth="188.0" layoutX="370.0" layoutY="328.0" opacity="0.87" pickOnBounds="true" preserveRatio="true">
+         <effect>
+            <Reflection />
+         </effect>
+      </ImageView>
+      <PasswordField fx:id="senha" layoutX="231.0" layoutY="254.0" prefHeight="31.0" prefWidth="233.0" />
+      <Label layoutX="360.0" layoutY="430.0" text="ALT - Novo Usuario" textFill="#009cff">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+   </children>
+</fx:root>

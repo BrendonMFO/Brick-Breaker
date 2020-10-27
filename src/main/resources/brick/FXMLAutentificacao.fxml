@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root id="AnchorPane" minHeight="-Infinity" prefHeight="140.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="109.0" layoutX="32.0" layoutY="6.0" stroke="BLACK" strokeType="INSIDE" width="541.0">
+         <effect>
+            <Reflection fraction="0.45" topOpacity="0.22" />
+         </effect>
+         <fill>
+            <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="0.9271844660194174" startX="1.0" startY="0.05825242718446602">
+               <stops>
+                  <Stop color="#7c7575" />
+                  <Stop color="#b0a5a5" offset="0.19281045751633985" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <TextField fx:id="codigo" alignment="CENTER" layoutX="100.0" layoutY="62.0" prefHeight="31.0" prefWidth="400.0" promptText="Codigo" />
+      <Label layoutX="81.0" layoutY="19.0" text="Por favor, insira seu codigo de verificação ">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+         <textFill>
+            <LinearGradient endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="#d0ba2b" />
+                  <Stop color="#5b0b0b" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <effect>
+            <Glow level="0.17" />
+         </effect>
+      </Label>
+   </children>
+</fx:root>

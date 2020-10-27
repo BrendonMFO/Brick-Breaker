@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root id="AnchorPane" focusTraversable="true" prefHeight="580.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="fundo" fitHeight="580.0" fitWidth="600.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <ImageView fx:id="cadastro" fitHeight="136.0" fitWidth="524.0" layoutX="39.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="309.0" layoutX="28.0" layoutY="159.0" stroke="BLACK" strokeType="INSIDE" width="539.0">
+         <effect>
+            <Reflection fraction="0.45" topOpacity="0.22" />
+         </effect>
+         <fill>
+            <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="0.9271844660194174" startX="1.0" startY="0.05825242718446602">
+               <stops>
+                  <Stop color="#7c7575" />
+                  <Stop color="#b0a5a5" offset="0.19281045751633985" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <TextField fx:id="usuario" alignment="CENTER" layoutX="48.0" layoutY="174.0" prefHeight="31.0" prefWidth="485.0" promptText="Nome de usuario" />
+      <PasswordField fx:id="senha" alignment="CENTER" layoutX="48.0" layoutY="214.0" prefHeight="31.0" prefWidth="485.0" promptText="Senha " />
+      <PasswordField fx:id="confimarSenha" alignment="CENTER" layoutX="48.0" layoutY="253.0" prefHeight="31.0" prefWidth="485.0" promptText="Confirmar senha" />
+      <TextField fx:id="email" alignment="CENTER" layoutX="48.0" layoutY="292.0" prefHeight="31.0" prefWidth="485.0" promptText="Email" />
+      <Button fx:id="btnLimpar" contentDisplay="GRAPHIC_ONLY" layoutX="28.0" layoutY="469.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="75.0" prefWidth="210.0" textFill="TRANSPARENT" />
+      <Button fx:id="btnConfirmar" contentDisplay="GRAPHIC_ONLY" layoutX="357.0" layoutY="469.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="75.0" prefWidth="210.0" textFill="TRANSPARENT" />
+      <RadioButton fx:id="tipo1" layoutX="160.0" layoutY="381.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="21.0" selected="true">
+         <toggleGroup>
+            <ToggleGroup fx:id="tipo" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="tipo2" layoutX="342.5" layoutY="381.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="21.0" toggleGroup="$tipo" />
+      <RadioButton fx:id="tipo3" layoutX="525.0" layoutY="381.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="21.0" toggleGroup="$tipo" />
+   </children>
+</fx:root>

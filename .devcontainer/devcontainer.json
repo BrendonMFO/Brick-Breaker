@@ -1,0 +1,30 @@
+{
+	"name": "Brick Breaker",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"VARIANT": "11",
+			"INSTALL_MAVEN": "true",
+			"INSTALL_GRADLE": "false",
+			"INSTALL_NODE": "false",
+			"NODE_VERSION": "lts/*"
+		}
+	},
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"java.home": "/docker-java-home"
+	},
+	"extensions": [
+		"vscjava.vscode-java-pack"
+	],
+	"containerEnv": {
+		"DISPLAY": "unix:0"
+	},
+	"mounts": [
+		"source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached"
+	],
+	"runArgs": [
+		"--privileged",
+	],
+	"remoteUser": "vscode"
+}

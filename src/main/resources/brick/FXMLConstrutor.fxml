@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="linha" alignment="CENTER" layoutX="192.0" layoutY="184.0" prefHeight="31.0" prefWidth="625.0" promptText="Linha 1" />
+      <TextField fx:id="linha1" alignment="CENTER" layoutX="192.0" layoutY="215.0" prefHeight="31.0" prefWidth="625.0" promptText="Linha 2" />
+      <TextField fx:id="linha2" alignment="CENTER" layoutX="192.0" layoutY="246.0" prefHeight="31.0" prefWidth="625.0" promptText="Linha 3" />
+      <TextField fx:id="linha3" alignment="CENTER" layoutX="192.0" layoutY="277.0" prefHeight="31.0" prefWidth="625.0" promptText="Linha 4" />
+      <TextField fx:id="linha4" alignment="CENTER" layoutX="192.0" layoutY="308.0" prefHeight="31.0" prefWidth="625.0" promptText="Linha 5" />
+      <TextField fx:id="linha5" alignment="CENTER" layoutX="192.0" layoutY="339.0" prefHeight="31.0" prefWidth="625.0" promptText="Linha 6" />
+      <TextField fx:id="linha6" alignment="CENTER" layoutX="192.0" layoutY="370.0" prefHeight="31.0" prefWidth="625.0" promptText="Linha 7" />
+      <TextField fx:id="linha7" alignment="CENTER" layoutX="192.0" layoutY="401.0" prefHeight="31.0" prefWidth="625.0" promptText="Linha 8" />
+      <TextField fx:id="linha8" alignment="CENTER" layoutX="192.0" layoutY="432.0" prefHeight="31.0" prefWidth="625.0" promptText="Linha 9" />
+      <TextField fx:id="linha9" alignment="CENTER" layoutX="192.0" layoutY="463.0" prefHeight="31.0" prefWidth="625.0" promptText="Linha 10" />
+      <TextField fx:id="linha10" alignment="CENTER" layoutX="192.0" layoutY="494.0" prefHeight="31.0" prefWidth="625.0" promptText="Linha 11" />
+      <TextField fx:id="linha11" alignment="CENTER" layoutX="192.0" layoutY="525.0" prefHeight="31.0" prefWidth="625.0" promptText="Linha 12" />
+   </children>
+</fx:root>
